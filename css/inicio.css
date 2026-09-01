@@ -1,0 +1,40 @@
+main > section#perfil {
+    display: flex;
+    gap: 100px;
+}
+
+section#perfil p {
+    font-size: 21px;
+    text-align: justify;
+    line-height: 32px;
+    margin: 20px 0;
+}
+
+main > section#perfil > img {
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media (max-width: 960px) {
+
+    section#perfil {
+        display: flex;
+        gap: 100px;
+        flex-direction: column-reverse;
+    }
+
+    section#perfil > img {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 500px) {
+
+    section#perfil > img {
+        width: 280px !important;
+        height: 280px !important;
+        margin: 0 auto;
+    }
+}

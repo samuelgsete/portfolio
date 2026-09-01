@@ -1,0 +1,56 @@
+ul.experiencias {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+ul.experiencias > li {
+    display: flex;
+}
+
+div.data {
+    width: 230px;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+    color: #646465;
+    border-right: 2px solid #cecad7;
+}
+
+div.data, div.experiencia {
+    padding: 20px;
+}
+
+div.experiencia {
+    position: relative;
+    width: 100%;
+}
+
+div.experiencia > h2 {
+    font-size: 21px;
+    margin-bottom: 6px;
+}
+
+div.experiencia > p {
+    font-size: 18px;
+    color: #404041;
+    text-align: justify;
+}
+
+div.experiencia > p.local {
+    font-size: 19px;
+    color:#2b0e84;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+span.filled {
+    background-color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: -4px;
+    left: -15.5px;
+    color: #2b0e84;
+}

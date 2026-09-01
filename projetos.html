@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <he>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="/favicon.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+        <link href="./css/base.css" rel="stylesheet">
+        <link href="./css/projetos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/stepper.css">
+        <title>Meus projetos pessoais</title>
+    </head>
+    <body class="page">
+        <header>
+            <img class="logo" src="./img/meulogo.png" alt="Samuel Souza">
+            <ul class="stepper-control">
+                <div class="line-back"></div>
+                <li>
+                    <div id="step1" class="step">
+                        <span class="icon material-symbols-outlined">done</span>
+                    </div>
+                    <a href="index.html">Perfil</a>
+                </li>
+                <li>
+                    <div id="step2" class="step">
+                        <span class="icon material-symbols-outlined">done</span>
+                    </div>
+                    <a href="formacao.html">Formação</a>
+                </li>
+                <li>
+                    <div id="step3" class="step">
+                        <span class="icon material-symbols-outlined">done</span>
+                    </div>
+                    <a href="experiencias.html">Experiências</a>
+                </li>
+                <li>
+                    <div id="step4" class="step">
+                        <span class="icon material-symbols-outlined">done</span>
+                    </div>
+                    <a href="contatos.html">Contatos</a>
+                </li>
+                <li class="pending">
+                    <div id="step5" class="step">
+                        <span class="icon material-symbols-outlined">edit</span>
+                    </div>
+                    <a href="projetos.html">Projetos</a>
+                </li>
+            </ul>
+        </header>
+        
+        <main>
+           
+            <section id="projetos">
+                <h1>Projetos</h1>
+
+                <p>
+                    Aqui estão alguns dos meus projetos pessoais, desenvolvidos com o objetivo de aprimorar minhas habilidades em desenvolvimento de software e explorar novas tecnologias.
+                </p>
+
+                <div class="sumario">
+                    <h2>Sumário</h2>
+                    <ul>
+                        <li><a href="#ecommerce">E-commerce — Plataforma de Vendas Online</a></li>
+                        <li><a href="#sigva">SigVa — Plataforma de Gestão de Varejo</a></li>
+                        <li><a href="#secred">SECRED — Sistema de Credenciamento de Membros</a></li>
+                    </ul>
+                </div>
+
+                <div id="ecommerce" class="projeto">
+                    
+                    <h2>E-commerce — Plataforma de Vendas Online</h2>
+
+                    <p>
+                        Projeto de <strong>e-commerce desenvolvido do zero</strong>, com o objetivo de
+                        aplicar na prática conceitos de desenvolvimento web, arquitetura de aplicações,
+                        autenticação, persistência de dados e implantação em ambiente de produção.
+                    </p>
+
+                    <p>
+                        A aplicação possui uma experiência completa de compra para usuários e um painel
+                        administrativo para gerenciamento da operação da loja.
+                    </p>
+
+                    <h3>Principais funcionalidades</h3>
+
+                    <h4>👤 Área do cliente</h4>
+
+                    <ul>
+                        <li>Cadastro e autenticação de usuários</li>
+                        <li>Catálogo de produtos</li>
+                        <li>Busca por produtos</li>
+                        <li>Filtros por categoria</li>
+                        <li>Página de detalhes dos produtos</li>
+                        <li>Sistema de favoritos</li>
+                        <li>Carrinho de compras</li>
+                        <li>Cadastro e gerenciamento de endereços</li>
+                        <li>Finalização de pedidos</li>
+                        <li>Integração com pagamento por link externo</li>
+                        <li>Envio de e-mails automáticos</li>
+                    </ul>
+
+                    <h4>🔧 Área administrativa</h4>
+
+                    <ul>
+                        <li>Cadastro e gerenciamento de produtos</li>
+                        <li>Upload e gerenciamento de imagens</li>
+                        <li>Controle de estoque</li>
+                        <li>Criação e gerenciamento de categorias</li>
+                        <li>Configuração de formas de pagamento e envio</li>
+                        <li>Gerenciamento de pedidos</li>
+                        <li>Gerenciamento de clientes</li>
+                        <li>Cadastro de redes sociais da loja</li>
+                    </ul>
+
+                    <h3>⚙️ Tecnologias</h3>
+
+                    <ul>
+                        <li>
+                            <strong>Backend:</strong>
+                            Java, Spring Boot, Spring Data JPA e PostgreSQL
+                        </li>
+
+                        <li>
+                            <strong>Segurança:</strong>
+                            Spring Security e Keycloak
+                        </li>
+
+                        <li>
+                            <strong>Frontend:</strong>
+                            Angular, Angular Material e CSS
+                        </li>
+
+                        <li>
+                            <strong>Infraestrutura:</strong>
+                            Docker, VPS Hostinger e Certbot/SSL
+                        </li>
+
+                        <li>
+                            <strong>Arquitetura:</strong>
+                            API REST integrada a uma aplicação frontend Angular
+                        </li>
+                    </ul>
+
+                    <h3>🚀 Deploy</h3>
+
+                    <p>
+                        O projeto foi <strong>implantado em ambiente de produção</strong>,
+                        utilizando Docker e certificado SSL, permitindo que a aplicação
+                        seja acessada publicamente.
+                    </p>
+
+                    <h3>🎥 Demonstração do projeto</h3>
+
+                    <p>
+                        Veja abaixo uma demonstração do projeto em funcionamento ou clique <a href="https://www.youtube.com/watch?v=f3wYhyCjZL0&t=415s" target="_blank">aqui</a> para assistir no YouTube.
+                    </p>
+
+                    <div class="video">
+                        <video width="620" height="360" controls>
+                            <source src="./videos/trb.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                </div>
+
+                <div id="sigva" class="projeto">
+                    <h2>SigVa — Plataforma de Gestão de Varejo</h2>
+                    <p>
+                        O <strong>SigVa</strong> é uma plataforma web de gestão de varejo desenvolvida
+                        com o objetivo de ajudar pequenos empreendedores a organizar e administrar
+                        seus negócios de forma simples, centralizada e eficiente.
+                    </p>
+
+                    <p>
+                        O sistema reúne recursos para gerenciamento de produtos, estoque,
+                        funcionários, pedidos e vendas, além de disponibilizar indicadores
+                        e relatórios que auxiliam na análise do desempenho do negócio.
+                    </p>
+
+                    <h3>Principais funcionalidades</h3>
+
+                    <h4>📦 Gestão do negócio</h4>
+
+                    <ul>
+                        <li>Cadastro e gerenciamento de produtos</li>
+                        <li>Controle de estoque</li>
+                        <li>Gestão de funcionários</li>
+                        <li>Gestão de pedidos</li>
+                        <li>Gestão de vendas</li>
+                        <li>Configuração de meios de pagamento</li>
+                    </ul>
+
+                    <h4>📊 Análise e relatórios</h4>
+
+                    <ul>
+                        <li>Análise de faturamento</li>
+                        <li>Dashboard com indicadores do negócio</li>
+                        <li>Relatórios de produtos</li>
+                        <li>Relatórios de estoque</li>
+                        <li>Relatórios de pedidos</li>
+                        <li>Relatórios de vendas</li>
+                        <li>Relatórios de faturamento</li>
+                    </ul>
+
+                    <h3>⚙️ Tecnologias</h3>
+
+                    <ul>
+
+                        <li>
+                            <strong>Backend:</strong>
+                            Java 21, Spring Boot 3, Spring Data JPA e PostgreSQL 17
+                        </li>
+
+                        <li>
+                            <strong>Segurança:</strong>
+                            Keycloak 26
+                        </li>
+
+                        <li>
+                            <strong>Frontend:</strong>
+                            Angular 19, Keycloak Angular, Angular Material e Ngx Charts
+                        </li>
+
+                        <li>
+                            <strong>Infraestrutura:</strong>
+                            Docker, Nginx e VPS Hostinger
+                        </li>
+
+                        <li>
+                            <strong>Segurança da aplicação:</strong>
+                            HTTPS com certificado SSL da Let's Encrypt
+                        </li>
+
+                        <li>
+                            <strong>Arquitetura:</strong>
+                            API REST integrada a uma aplicação frontend Angular
+                        </li>
+
+                    </ul>
+
+                    <h3>🚀 Deploy</h3>
+
+                    <p>
+                        O SigVa foi <strong>implantado em ambiente de produção</strong>
+                        utilizando uma VPS da Hostinger, Docker e Nginx.
+                        A aplicação possui domínio próprio e comunicação segura através
+                        de <strong>HTTPS com certificado SSL da Let's Encrypt</strong>.
+                    </p>
+
+                    <h3>🎥 Demonstração do projeto</h3>
+
+                    <p>
+                        Veja abaixo uma demonstração do SigVa em funcionamento ou clique <a href="https://www.youtube.com/watch?v=RuygxY5iofc" target="_blank">aqui</a> para assistir no YouTube.
+                    </p>
+
+                    <div class="video">
+                        <video width="620" height="360" controls>
+                            <source src="./videos/sigva.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                </div>
+
+                <div id="secred" class="projeto">
+
+                    <h2>SECRED — Sistema de Credenciamento de Membros</h2>
+
+                    <p>
+                        O <strong>SECRED</strong> é um sistema web desenvolvido com o objetivo de
+                        simplificar e modernizar o processo de <strong>credenciamento de membros
+                        para Igrejas Evangélicas</strong>, proporcionando uma plataforma
+                        centralizada para organização e gerenciamento das informações.
+                    </p>
+
+                    <p>
+                        Esse projeto foi especialmente escolhido para o meu trabalho de conclusão de curso (TCC) na minha graduação.
+                    </p>
+
+                    <h3>Principais funcionalidades</h3>
+
+                    <h4>👤 Gestão de membros</h4>
+
+                    <ul>
+                        <li>Cadastro e gerenciamento de membros</li>
+                        <li>Cadastro e gerenciamento de congregações</li>
+                        <li>Cadastro e gerenciamento de cargos</li>
+                        <li>Emissão de relat-orios</li>
+                        <li>Emissão de credenciais</li>
+                    </ul>
+
+                    <h3>⚙️ Tecnologias</h3>
+
+                    <ul>
+
+                        <li>
+                            <strong>Backend:</strong>
+                            Java, Spring Boot, Spring Data JPA, Spring Security,
+                            PostgreSQL, Thymeleaf, Cloudinary e Maven
+                        </li>
+
+                        <li>
+                            <strong>Segurança:</strong>
+                            Spring Security e Keycloak
+                        </li>
+
+                        <li>
+                            <strong>Frontend:</strong>
+                            Angular 16, Angular Material, TypeScript, HTML e CSS
+                        </li>
+
+                        <li>
+                            <strong>Ambiente:</strong>
+                            Node.js e NPM
+                        </li>
+
+                        <li>
+                            <strong>Banco de dados:</strong>
+                            PostgreSQL
+                        </li>
+
+                        <li>
+                            <strong>Armazenamento de imagens:</strong>
+                            Cloudinary
+                        </li>
+
+                    </ul>
+
+                    <h3>🎥 Demonstração do projeto</h3>
+
+                    <p>
+                        Veja abaixo uma demonstração da evolução do template e das funcionalidades
+                        do SECRED em funcionamento ou clique <a href="https://www.youtube.com/watch?v=GVOPNHyvRds" target="_blank">aqui</a> para assistir no YouTube.
+                    </p>
+
+                    <div class="video">
+
+                        <video width="620" height="360" controls>
+                            <source src="./videos/secred.mp4" type="video/mp4">
+
+                            Seu navegador não suporta o elemento de vídeo.
+
+                        </video>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <div class="stepper-nav">
+                <a href="./contatos.html" class="btn btn-outline" type="submit">Voltar</a>
+                <a href="./index.html" class="btn btn-primary" type="submit">Início</a>
+            </div>
+            
+        </main>
+
+        <footer>
+            Desenvolvido por <strong>Samuel Souza</strong>
+        </footer>
+        
+    </body>
+</html>

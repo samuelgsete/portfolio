@@ -1,0 +1,70 @@
+ul.stepper-control {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    height: 40px;
+    width: fit-content;
+    position: relative;
+}
+
+ul.stepper-control > li > a {
+    text-decoration: none;
+    color: #4121a4;
+}
+
+ul.stepper-control > li {
+    font-size: 16px;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 12px;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 9999;
+    transition: all 0.3s;
+}
+
+ul.stepper-control > li:hover {
+    background-color: #eaeaec;
+}
+
+ul.stepper-control > li > div.step {
+    background-color: #d4c6ff;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #1e095f;
+}
+
+ul.stepper-control > li.pending {
+    pointer-events: none;
+}
+
+ul.stepper-control > li.pending > a {
+    color: #7e7e7e;
+}
+
+ul.stepper-control > li.pending > div.step {
+    background-color: #f3efef;
+    border: 1px solid #9b9b9d;
+    color: #7e7e7e;
+}
+
+div.line-back {
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    z-index: 999;
+    background-color: #2b0e84;
+}
+
+div.stepper-nav {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}

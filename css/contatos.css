@@ -1,0 +1,37 @@
+ul {
+    list-style: none;
+}
+
+ul.contatos, ul.redes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+ul.redes > li, ul.contatos > li {
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+ul.contatos > li {
+    font-size: 19px;
+}
+
+ul.redes > li > a {
+    text-decoration: none;
+    color: #4121a4;
+    font-size: 21px;
+    font-weight: 550;
+}
+
+ul.redes > li > a:hover {
+    text-decoration: underline;
+    color: #2d1181;
+}
+
+p.group {
+    font-size: 21px;
+    font-weight: 650;
+}

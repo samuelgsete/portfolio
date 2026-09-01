@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="/favicon.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link href="./css/base.css" rel="stylesheet">
+        <link href="./css/experiencias.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/stepper.css">
+        <title>Experiências profissionais</title>
+    </head>
+    <body class="page">
+        <header>
+            <img class="logo" src="./img/meulogo.png" alt="Samuel Souza">
+            <ul class="stepper-control">
+                <div class="line-back"></div>
+                <li>
+                    <div id="step1" class="step">
+                        <span class="icon material-symbols-outlined">done</span>
+                    </div>
+                    <a href="index.html">Perfil</a>
+                </li>
+                <li>
+                    <div id="step2" class="step">
+                        <span class="icon material-symbols-outlined">done</span>
+                    </div>
+                    <a href="formacao.html">Formação</a>
+                </li>
+                <li>
+                    <div id="step3" class="step">
+                        <span class="icon material-symbols-outlined">edit</span>
+                    </div>
+                    <a href="experiencias.html">Experiências</a>
+                </li>
+                <li class="pending">
+                    <div id="step4" class="step">4</div>
+                    <a href="contatos.html">Contatos</a>
+                </li>
+                <li class="pending">
+                    <div id="step5" class="step">5</div>
+                    <a href="projetos.html">Projetos</a>
+                </li>
+
+            </ul>
+        </header>
+        
+        <main>
+
+            <h1>Minhas experiências</h1>
+
+            <ul class="experiencias">
+                <li>
+                    <div class="data">
+                        Julho de 2024
+                    </div>
+                    <div class="experiencia">
+                        <span class="material-symbols-outlined filled">check_circle</span>
+                        <h2>Desenvolvedor de Software</h2>
+                        <p class="local">Instituto Idear | C&C Serviços e Tecnologia</p>
+                        <p>
+                            Atuação no desenvolvimento e manutenção de aplicações web full-stack, projetando e implementando soluções com PHP, Laravel e Vue.js. Responsável pela modelagem de bancos de dados MySQL e pela criação rápida de relatórios e módulos administrativos utilizando Scriptcase.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="data">
+                        Novembro de 2023
+                    </div>
+                    <div class="experiencia">
+                        <span class="material-symbols-outlined filled">check_circle</span>
+                        <h2>Estagiário em Desenvolvimento de Software</h2>
+                        <p class="local">Prefeitura de Maracanaú-CE | SETEC</p>
+                        <p>
+                            Atuação no desenvolvimento e manutenção de aplicações web full-stack, projetando e implementando soluções com PHP, Laravel e Vue.js. Responsável pela modelagem de bancos de dados MySQL.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="data">
+                        Setembro de 2022
+                    </div>
+                    <div class="experiencia">
+                        <span class="material-symbols-outlined filled">check_circle</span>
+                        <h2>Estagiário em Suporte de TI</h2>
+                        <p class="local">Prefeitura de Maracanaú-CE | SETEC</p>
+                        <p>
+                            Atuação no suporte técnico presencial aos usuários, manutenção preventiva e corretiva de computadores e configuração de impressoras. Responsável pela formatação, padronização e instalação de sistemas Windows e Linux, além de estruturação de redes locais, testes de periféricos e execução de rotinas de backup.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="data">
+                        Outubro de 2021
+                    </div>
+                    <div class="experiencia">
+                        <span class="material-symbols-outlined filled">check_circle</span>
+                        <h2>Bolsista de Tutoria</h2>
+                        <p class="local">IFCE Campus Maracanaú</p>
+                        <p>
+                            Atuação no suporte aos alunos PCDs do curso de Ciência da Computação, auxiliando-os na compreensão de conteúdos acadêmicos e na resolução de dúvidas relacionadas às disciplinas. Responsável por ministrar sessões de tutoria individual e em grupo, promovendo um ambiente de aprendizado colaborativo.
+                        </p>
+                    </div>
+                </li>
+                 <li>
+                    <div class="data">
+                        Fevereiro de 2018
+                    </div>
+                    <div class="experiencia">
+                        <span class="material-symbols-outlined filled">check_circle</span>
+                        <h2>Bolsista de Iniciação Científica</h2>
+                        <p class="local">IFCE Campus Maracanaú</p>
+                        <p>
+                            Atuação na pesquisa e desenvolvimento full-stack de um sistema de Ponto de Vendas (PDV). Responsável pela construção da arquitetura e regras de negócio com Java EE e PostgreSQL, criação da interface no Angular, implementação de autenticação segura via Keycloak e conteinerização dos ambientes com Docker.
+                        </p>
+                    </div>
+                </li>                
+            </ul>
+
+            <div class="stepper-nav">
+                <a href="./formacao.html" class="btn btn-outline" type="submit">Voltar</a>
+                <a href="./contatos.html" class="btn btn-primary" type="submit">Próximo</a>
+            </div>
+        </main>
+
+        <footer>
+            Desenvolvido por <strong>Samuel Souza</strong>
+        </footer>
+        
+    </body>
+</html>
