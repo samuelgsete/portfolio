@@ -17,24 +17,8 @@ main > section#perfil > img {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-@media (max-width: 960px) {
-
-    section#perfil {
-        display: flex;
-        gap: 100px;
-        flex-direction: column-reverse;
-    }
-
+@media (max-width: 850px) {
     section#perfil > img {
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 500px) {
-
-    section#perfil > img {
-        width: 280px !important;
-        height: 280px !important;
-        margin: 0 auto;
+        display: none;
     }
 }

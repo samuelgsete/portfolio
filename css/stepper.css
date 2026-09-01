@@ -1,4 +1,5 @@
 ul.stepper-control {
+    width: 100%;
     list-style: none;
     display: flex;
     align-items: center;
@@ -67,4 +68,10 @@ div.stepper-nav {
     display: flex;
     gap: 15px;
     margin: 20px 0;
+}
+
+@media (max-width: 850px) {
+    ul.stepper-control {
+        display: none;
+    }
 }

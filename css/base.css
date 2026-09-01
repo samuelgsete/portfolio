@@ -153,9 +153,8 @@ img.imagem {
     }
 }
 
-@media (max-width: 960px) {
-    header {
-        flex-direction: column;
-        gap: 20px;
+@media (max-width: 850px) {
+    header > img {
+        margin: 0 auto;
     }
 }

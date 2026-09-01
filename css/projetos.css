@@ -60,7 +60,21 @@ div.projeto p {
 }
 
 div.video {
+    width: 100%;
     display: flex;
     padding: 20px;
     justify-content: center;
+}
+
+div.video > video {
+    width: 620px;
+    height: 360px;
+}
+
+@media (max-width: 620px) {
+
+    div.video > video {
+        width: 110%;
+        height: auto;
+    }
 }

@@ -19,6 +19,14 @@ div.data {
     border-right: 2px solid #cecad7;
 }
 
+div.data-mobile {
+    width: 230px;
+    font-size: 18px;
+    color: #646465;
+    margin: 0 0 8px 0;
+    display: none;
+}
+
 div.data, div.experiencia {
     padding: 20px;
 }
@@ -53,4 +61,19 @@ span.filled {
     top: -4px;
     left: -15.5px;
     color: #2b0e84;
+}
+
+@media (max-width: 500px) {
+
+    div.data {
+        display: none;
+    }
+
+    div.data-mobile {
+        display: inline-block;
+    }
+
+    div.data, div.experiencia {
+        border-left: 2px solid #cecad7;
+    }
 }
