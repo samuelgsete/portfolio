@@ -1,2 +1,2 @@
-# portifolio
-Meu portifólio público
+# portfolio
+Meu portifólio
